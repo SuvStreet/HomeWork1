@@ -1,0 +1,40 @@
+.ABBR{
+    color: red;
+}
+
+.desc{
+    text-align: center;
+}
+
+.paragraph1{
+    font-family: Consolas;
+    font-size: 20px;
+    color: #12b936;
+}
+
+.paragraph3{
+    font-family: Century;
+    font-size: 15px;
+    color: rgb(184, 18, 148);
+}
+
+.BGPK{
+    font-style: oblique;
+    text-decoration: underline;
+    color: #6fe4ec
+}
+
+.windows{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.OR{
+    color: black;
+    text-decoration: overline underline;
+}
+
+.BGPK#bkgr{
+    background-color: black;
+    font-style: normal;
+}
