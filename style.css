@@ -38,3 +38,33 @@
     background-color: black;
     font-style: normal;
 }
+
+#li1{
+    list-style-type: none; /* Скрываем маркеры списка */
+    text-indent: -30px; /* Сдвигаем элементы списка влево */
+}
+
+#li1 li:before{
+    content: '\00B7'; /* Добавляем маркер в шестнадцатеричном формате */
+    padding-right: 35px; /* Расстояние от маркеров до текста */
+} 
+
+#li2{
+    list-style-type: none;
+    text-indent: -30px;
+}
+
+#li2 li:before{
+    content: '§'; /* Добавляем маркер */
+    padding-right: 10px;
+}
+
+#li3{
+    list-style-type: none;
+    text-indent: -30px;
+}
+
+#li3 li:before{
+    content: '\25E6';
+    padding-right: 25px;
+} 
